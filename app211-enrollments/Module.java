@@ -29,9 +29,29 @@ public class Module
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public String getCode()
     {
-        // put your code here
-        return x + y;
+        return code;
     }
+    
+    public String getTitle()
+    {
+        return title;
+    }
+    
+    public int getValue()
+    {
+        return value;
+    }
+    
+    public void setValue(int value)
+    {
+        this.value = value;
+    }
+    public void printInfo()
+    {
+        System.out.println("Code "+ code);
+        System.out.println("Title " + title);
+        System.out.println("Credit Value " + value);
+
 }
