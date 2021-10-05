@@ -14,6 +14,8 @@ public class Course
     private String code;
     // The full title including qualification and subject
     private String title;
+    //The course most have a module. this is where the module will be stored.
+    private Module module;
     
     /**
      * Create a Course with a maximum number of enrolments. 
@@ -23,6 +25,11 @@ public class Course
     {
         this.code = code;
         this.title = title;
+    }
+    public void addModule(Module module)
+    
+    {
+        this.module = module;
     }
 
     
