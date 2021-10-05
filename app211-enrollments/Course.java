@@ -43,8 +43,10 @@ public class Course
         
         System.out.println(" Course Code: " + code + ": " + title);
         System.out.println();
+    
     }
     
+
     /**
      * Print out the details of the course to the terminal.
      */

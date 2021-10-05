@@ -15,12 +15,12 @@ public class Module
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(String title, String code)
     {
         // initialise instance variables
-        this.code = code;
-        this.title = title;
-        this.value = value;
+        code = code;
+        title = title;
+        value = value;
     }
 
     /**
@@ -50,8 +50,20 @@ public class Module
     }
     public void printInfo()
     {
-        System.out.println("Code "+ code);
-        System.out.println("Title " + title);
-        System.out.println("Credit Value " + value);
+        printHeading();
+        
+        System.out.println(" Module Code: " + code + ": " + title);
+        System.out.println();
+    }
+    /**
+     * Print out the details of the course to the terminal.
+     */
+    private void printHeading()
+    {
+        System.out.println(" --------------------------------");
+        System.out.println("   App211: Module Details");
+        System.out.println(" --------------------------------");
+        System.out.println();
+    }
 
 }
