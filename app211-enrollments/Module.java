@@ -18,16 +18,13 @@ public class Module
     public Module(String title, String code)
     {
         // initialise instance variables
-        code = code;
-        title = title;
-        value = value;
+        this.code = code;
+        this.title = title;
+        this.value = value;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * method of returning module code
      */
     public String getCode()
     {
@@ -48,22 +45,18 @@ public class Module
     {
         this.value = value;
     }
+    
+    
+    /**
+     * Print out the details of the module to the terminal.
+     */
     public void printInfo()
     {
-        printHeading();
-        
+       
         System.out.println(" Module Code: " + code + ": " + title);
         System.out.println();
+                
     }
-    /**
-     * Print out the details of the course to the terminal.
-     */
-    private void printHeading()
-    {
-        System.out.println(" --------------------------------");
-        System.out.println("   App211: Module Details");
-        System.out.println(" --------------------------------");
-        System.out.println();
-    }
+    
 
 }
