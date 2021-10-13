@@ -18,14 +18,15 @@ public class Course
     private Module module;
     
     /**
-     * Create a Course with a maximum number of enrolments. 
-     * All other details are set to unkown values.
+     * this is a constructor that is going to pull course code and title.
+     * 
      */
     public Course(String code, String title)
     {
         this.code = code;
         this.title = title;
     }
+    
     public void addModule(Module module)
     
     {
@@ -34,9 +35,10 @@ public class Course
 
     
     /**
-     * Print the details of the course, the list
-     * of students enrolled and the module
+     * This constructor will print the course details and the details
+     * of the modules added to the course with the corresponding credit value.
      */
+    //Inserted a modified print method to include module code and details.
     public void print()
     {
         printHeading();
@@ -58,4 +60,5 @@ public class Course
         System.out.println(" --------------------------------");
         System.out.println();
     }
+    
 }

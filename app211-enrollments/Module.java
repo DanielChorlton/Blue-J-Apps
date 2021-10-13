@@ -23,9 +23,7 @@ public class Module
         this.value = value;
     }
 
-    /**
-     * method of returning module code
-     */
+    
     public String getCode()
     {
         return code;
@@ -48,12 +46,12 @@ public class Module
     
     
     /**
-     * Print out the details of the module to the terminal.
+     * This will add the module details to the terminal.
      */
     public void printInfo()
     {
        
-        System.out.println(" Module Code: " + code + ": " + title);
+        System.out.println(" Module Code: " + code + ":" + title + ":" + " Credit Value " + ":" + value);
         System.out.println();
                 
     }
