@@ -27,6 +27,9 @@ public class Course
         this.title = title;
     }
     
+    /**
+     * This is a will provide the ability to add a module to a course
+     */
     public void addModule(Module module)
     
     {

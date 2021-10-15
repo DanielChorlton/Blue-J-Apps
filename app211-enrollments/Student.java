@@ -42,7 +42,7 @@ public class Student
     }
 
     /**
-     * This method will print in the terminal the course that the student is enrolled onto.
+     * Add the ability to enroll a student onto a course.
      */
     public void enrol(Course course)
     {
@@ -56,6 +56,10 @@ public class Student
     {
         System.out.println(" Student ID: " + id + " Name: " + name);
     }
+    
+    /**
+     * Print the course a student is enrolled onto.
+     */
     
     public void printCourse()
     {

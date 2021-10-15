@@ -15,6 +15,7 @@ public class Module
     /**
      * Constructor for objects of class Module
      */
+    
     public Module(String title, String code)
     {
         // initialise instance variables
@@ -27,6 +28,7 @@ public class Module
     /**
      * Constructor for objects of class Module
      */
+    
     public String getCode()
     {
         return code;
@@ -63,6 +65,7 @@ public class Module
     /**
      * This will add the module details to the terminal.
      */
+    
     public void printInfo()
     {
        
