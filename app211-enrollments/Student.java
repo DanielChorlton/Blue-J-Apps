@@ -58,7 +58,7 @@ public class Student
     }
     
     /**
-     * Print the course a student is enrolled onto.
+     * Print the course a student is enrolled onto and the modules added.
      */
     
     public void printCourse()

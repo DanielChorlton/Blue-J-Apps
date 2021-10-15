@@ -69,7 +69,7 @@ public class Module
     public void printInfo()
     {
        
-        System.out.println(" Module Code: " +    code + ": " + title + " : " + " Credit Value: " + value);
+        System.out.println(" Module Code: " +    code + ": " + title + " : " + "Credit Value: " + value);
         System.out.println();
                 
     }
