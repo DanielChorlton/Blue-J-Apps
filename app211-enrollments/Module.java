@@ -47,7 +47,7 @@ public class Module
      * Constructor will return the value of the module.
      */
     
-    public int getValue()
+    public int getCreditValue()
     {
         return creditValue;
     }
@@ -58,7 +58,7 @@ public class Module
     
     public void setValue(int value)
     {
-        this.creditValue = creditValue;
+        this.creditValue = value;
     }
     
     
