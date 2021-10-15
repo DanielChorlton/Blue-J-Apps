@@ -21,7 +21,7 @@ public class Module
         // initialise instance variables
         this.code = code;
         this.title = title;
-        this.creditValue = creditValue;
+        this.creditValue = 0
     }
 
     
