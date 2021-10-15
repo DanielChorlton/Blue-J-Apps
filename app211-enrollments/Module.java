@@ -10,7 +10,7 @@ public class Module
     // instance variables - created variables for class
     private String code;
     private String title;
-    private int value;
+    private int creditValue;
 
     /**
      * Constructor for objects of class Module
@@ -21,7 +21,7 @@ public class Module
         // initialise instance variables
         this.code = code;
         this.title = title;
-        this.value = value;
+        this.creditValue = creditValue;
     }
 
     
@@ -49,7 +49,7 @@ public class Module
     
     public int getValue()
     {
-        return value;
+        return creditValue;
     }
     
     /**
@@ -58,7 +58,7 @@ public class Module
     
     public void setValue(int value)
     {
-        this.value = value;
+        this.creditValue = creditValue;
     }
     
     
@@ -69,7 +69,7 @@ public class Module
     public void printInfo()
     {
        
-        System.out.println(" Module Code: " +    code + ": " + title + " : " + "Credit Value: " + value);
+        System.out.println(" Module Code: " +    code + ": " + title + " : " + "Credit Value: " + creditValue);
         System.out.println();
                 
     }
