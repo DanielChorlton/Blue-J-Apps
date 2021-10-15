@@ -41,6 +41,9 @@ public class Student
         return id;
     }
 
+    /**
+     * This method will print in the terminal the course that the student is enrolled onto.
+     */
     public void enrol(Course course)
     {
         this.course = course;

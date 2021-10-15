@@ -24,20 +24,35 @@ public class Module
     }
 
     
+    /**
+     * Constructor for objects of class Module
+     */
     public String getCode()
     {
         return code;
     }
     
+    /**
+     * Constructor will return the tile of the module.
+     */
+       
     public String getTitle()
     {
         return title;
     }
     
+    /**
+     * Constructor will return the value of the module.
+     */
+    
     public int getValue()
     {
         return value;
     }
+    
+    /**
+     * Constructor will provide the ability to set the value of the module.
+     */
     
     public void setValue(int value)
     {
@@ -51,7 +66,7 @@ public class Module
     public void printInfo()
     {
        
-        System.out.println(" Module Code: " + code + ":" + title + ":" + " Credit Value " + ":" + value);
+        System.out.println(" Module Code: " +    code + ": " + title + " : " + " Credit Value: " + value);
         System.out.println();
                 
     }
